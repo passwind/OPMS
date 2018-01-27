@@ -2,10 +2,11 @@ package knowledges
 
 import (
 	"fmt"
-	"opms/controllers"
-	. "opms/models/knowledges"
-	. "opms/models/messages"
-	"opms/utils"
+
+	"github.com/lock-upme/opms/controllers"
+	. "github.com/lock-upme/opms/models/knowledges"
+	. "github.com/lock-upme/opms/models/messages"
+	"github.com/lock-upme/opms/utils"
 )
 
 type AddCommentController struct {

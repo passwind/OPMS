@@ -2,11 +2,12 @@ package knowledges
 
 import (
 	"fmt"
-	"opms/controllers"
-	. "opms/models/knowledges"
-	"opms/utils"
 	"strconv"
 	"strings"
+
+	"github.com/lock-upme/opms/controllers"
+	. "github.com/lock-upme/opms/models/knowledges"
+	"github.com/lock-upme/opms/utils"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/utils/pagination"

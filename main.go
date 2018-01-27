@@ -3,8 +3,9 @@ package main
 import (
 	"html/template"
 	"net/http"
-	_ "opms/initial"
-	_ "opms/routers"
+
+	_ "github.com/lock-upme/opms/initial"
+	_ "github.com/lock-upme/opms/routers"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/context"

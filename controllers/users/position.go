@@ -2,11 +2,12 @@ package users
 
 import (
 	//"fmt"
-	"opms/controllers"
-	. "opms/models/users"
-	"opms/utils"
 	"strconv"
 	"strings"
+
+	"github.com/lock-upme/opms/controllers"
+	. "github.com/lock-upme/opms/models/users"
+	"github.com/lock-upme/opms/utils"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/utils/pagination"

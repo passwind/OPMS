@@ -2,15 +2,16 @@ package leaves
 
 import (
 	"fmt"
-	"opms/controllers"
-	. "opms/models/leaves"
-	. "opms/models/messages"
-	. "opms/models/users"
-	"opms/utils"
 	"os"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/lock-upme/opms/controllers"
+	. "github.com/lock-upme/opms/models/leaves"
+	. "github.com/lock-upme/opms/models/messages"
+	. "github.com/lock-upme/opms/models/users"
+	"github.com/lock-upme/opms/utils"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/utils/pagination"

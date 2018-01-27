@@ -3,16 +3,15 @@ package checkworks
 import (
 	"fmt"
 
-	"opms/controllers"
-	. "opms/models/checkworks"
-	"opms/utils"
+	"github.com/lock-upme/opms/controllers"
+	. "github.com/lock-upme/opms/models/checkworks"
+	"github.com/lock-upme/opms/utils"
 	//"os"
 	//"strconv"
 	"strings"
 	"time"
 
 	"github.com/astaxie/beego"
-
 	//"github.com/astaxie/beego/utils/pagination"
 )
 

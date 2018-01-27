@@ -1,13 +1,14 @@
 package controllers
 
 import (
-	//"opms/initial"
+	//"github.com/lock-upme/opms/initial"
 
 	"fmt"
-	. "opms/models/groups"
-	. "opms/models/messages"
 	"strconv"
 	"strings"
+
+	. "github.com/lock-upme/opms/models/groups"
+	. "github.com/lock-upme/opms/models/messages"
 
 	"github.com/astaxie/beego"
 )

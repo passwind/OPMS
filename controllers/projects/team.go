@@ -2,12 +2,13 @@ package projects
 
 import (
 	"fmt"
-	"opms/controllers"
-	. "opms/models/projects"
-	. "opms/models/users"
-	"opms/utils"
 	"strconv"
 	"strings"
+
+	"github.com/lock-upme/opms/controllers"
+	. "github.com/lock-upme/opms/models/projects"
+	. "github.com/lock-upme/opms/models/users"
+	"github.com/lock-upme/opms/utils"
 )
 
 //项目成员

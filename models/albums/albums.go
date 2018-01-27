@@ -1,8 +1,9 @@
 package albums
 
 import (
-	"opms/models"
 	"time"
+
+	"github.com/lock-upme/opms/models"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"

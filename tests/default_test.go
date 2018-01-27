@@ -3,10 +3,11 @@ package test
 import (
 	"net/http"
 	"net/http/httptest"
-	_ "opms/routers"
 	"path/filepath"
 	"runtime"
 	"testing"
+
+	_ "github.com/lock-upme/opms/routers"
 
 	"github.com/astaxie/beego"
 	. "github.com/smartystreets/goconvey/convey"

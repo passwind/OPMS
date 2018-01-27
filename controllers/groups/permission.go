@@ -2,11 +2,12 @@ package groups
 
 import (
 	"fmt"
-	"opms/controllers"
-	. "opms/models/groups"
-	"opms/utils"
 	"strconv"
 	"strings"
+
+	"github.com/lock-upme/opms/controllers"
+	. "github.com/lock-upme/opms/models/groups"
+	"github.com/lock-upme/opms/utils"
 	//"time"
 
 	"github.com/astaxie/beego"

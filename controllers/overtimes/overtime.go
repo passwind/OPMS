@@ -2,11 +2,11 @@ package overtimes
 
 import (
 	"fmt"
-	"opms/controllers"
-	. "opms/models/messages"
-	. "opms/models/overtimes"
-	. "opms/models/users"
-	"opms/utils"
+	"github.com/lock-upme/opms/controllers"
+	. "github.com/lock-upme/opms/models/messages"
+	. "github.com/lock-upme/opms/models/overtimes"
+	. "github.com/lock-upme/opms/models/users"
+	"github.com/lock-upme/opms/utils"
 	"strconv"
 	"strings"
 

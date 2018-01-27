@@ -3,13 +3,14 @@ package albums
 import (
 	"fmt"
 	"io"
-	"opms/controllers"
-	. "opms/models/albums"
-	"opms/utils"
 	"os"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/lock-upme/opms/controllers"
+	. "github.com/lock-upme/opms/models/albums"
+	"github.com/lock-upme/opms/utils"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/utils/pagination"

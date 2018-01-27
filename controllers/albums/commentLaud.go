@@ -2,10 +2,11 @@ package albums
 
 import (
 	"fmt"
-	"opms/controllers"
-	. "opms/models/albums"
-	. "opms/models/messages"
-	"opms/utils"
+
+	"github.com/lock-upme/opms/controllers"
+	. "github.com/lock-upme/opms/models/albums"
+	. "github.com/lock-upme/opms/models/messages"
+	"github.com/lock-upme/opms/utils"
 )
 
 type AddCommentController struct {

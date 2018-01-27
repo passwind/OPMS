@@ -2,11 +2,11 @@ package businesstrips
 
 import (
 	"fmt"
-	"opms/controllers"
-	. "opms/models/businesstrips"
-	. "opms/models/messages"
-	. "opms/models/users"
-	"opms/utils"
+	"github.com/lock-upme/opms/controllers"
+	. "github.com/lock-upme/opms/models/businesstrips"
+	. "github.com/lock-upme/opms/models/messages"
+	. "github.com/lock-upme/opms/models/users"
+	"github.com/lock-upme/opms/utils"
 	"os"
 	"strconv"
 	"strings"

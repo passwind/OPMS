@@ -2,11 +2,11 @@ package expenses
 
 import (
 	"fmt"
-	"opms/controllers"
-	. "opms/models/expenses"
-	. "opms/models/messages"
-	. "opms/models/users"
-	"opms/utils"
+	"github.com/lock-upme/opms/controllers"
+	. "github.com/lock-upme/opms/models/expenses"
+	. "github.com/lock-upme/opms/models/messages"
+	. "github.com/lock-upme/opms/models/users"
+	"github.com/lock-upme/opms/utils"
 	"os"
 	"strconv"
 	"strings"

@@ -2,9 +2,10 @@ package overtimes
 
 import (
 	"fmt"
-	"opms/models"
-	"opms/utils"
 	"time"
+
+	"github.com/lock-upme/opms/models"
+	"github.com/lock-upme/opms/utils"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"

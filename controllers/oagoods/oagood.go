@@ -2,11 +2,11 @@ package oagoods
 
 import (
 	"fmt"
-	"opms/controllers"
-	. "opms/models/messages"
-	. "opms/models/oagoods"
-	. "opms/models/users"
-	"opms/utils"
+	"github.com/lock-upme/opms/controllers"
+	. "github.com/lock-upme/opms/models/messages"
+	. "github.com/lock-upme/opms/models/oagoods"
+	. "github.com/lock-upme/opms/models/users"
+	"github.com/lock-upme/opms/utils"
 	"os"
 	"strconv"
 	"strings"

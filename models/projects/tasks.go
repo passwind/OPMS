@@ -2,9 +2,9 @@ package projects
 
 import (
 	"fmt"
-	"opms/models"
-	"opms/models/users"
-	"opms/utils"
+	"github.com/lock-upme/opms/models"
+	"github.com/lock-upme/opms/models/users"
+	"github.com/lock-upme/opms/utils"
 	"time"
 
 	"github.com/astaxie/beego"

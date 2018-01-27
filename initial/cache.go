@@ -1,7 +1,7 @@
 package initial
 
 import (
-	"opms/utils"
+	"github.com/lock-upme/opms/utils"
 )
 
 func InitCache() {

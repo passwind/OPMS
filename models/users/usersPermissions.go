@@ -2,8 +2,9 @@ package users
 
 import (
 	"fmt"
-	"opms/models"
-	"opms/utils"
+
+	"github.com/lock-upme/opms/models"
+	"github.com/lock-upme/opms/utils"
 	//"sort"
 	"strings"
 
